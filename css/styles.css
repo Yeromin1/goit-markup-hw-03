@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -6,6 +12,20 @@ body {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -38,6 +58,34 @@ h2 {
 
 .logo-accent {
   color: #2e2f42;
+}
+
+.logo {
+  display: flex;
+}
+
+.page-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.logo-page-nav {
+  display: flex;
+}
+
+.contacts .page-address {
+  display: flex;
+  gap: 40px;
+}
+
+.container-header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: space-between;
 }
 
 .page-nav .link {
