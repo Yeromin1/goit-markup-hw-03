@@ -18,6 +18,10 @@ ul {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
@@ -62,6 +66,8 @@ h2 {
 
 .logo {
   display: flex;
+  width: 115px;
+  height: 24px;
 }
 
 .page-nav {
@@ -83,9 +89,8 @@ h2 {
 
 .container-header {
   display: flex;
-  width: 1440px;
   height: 72px;
-  justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav .link {
@@ -109,8 +114,9 @@ h2 {
   font-style: normal;
 }
 
-.container-section-one {
+.container-title-one {
   background-color: #2E2F42;
+  height: 600px;
 }
 
 .container-section-one .button {
@@ -121,6 +127,9 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
 }
 
 .guality-list .title {
@@ -155,6 +164,7 @@ h2 {
 
 .container-team {
   background-color: #F4F4FD;
+  height: 732px;
   }
 
 .team-list .team {
@@ -189,6 +199,7 @@ h2 {
 
 .container-footer {
   background-color: #2E2F42;
+  height: 312px;
 }
 
 .link:hover,
@@ -199,4 +210,22 @@ h2 {
 .button:hover,
 .button:focus {
   background-color: #404BBF;
+}
+
+.guality-list {
+  display: flex;
+}
+
+.team-list {
+  display: flex;
+}
+
+.container-portfolio-one,
+.container-portfolio-two {
+  display: flex;
+}
+
+.container-portfolio {
+  width: 1128px;
+  height: 1000px;
 }
