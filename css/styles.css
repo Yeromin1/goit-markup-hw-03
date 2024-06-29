@@ -83,7 +83,7 @@ h2 {
   display: flex;
   width: 115px;
   height: 24px;
-  margin: 24px 0;
+  padding: 24px 0;
 
 }
 
@@ -108,7 +108,9 @@ h2 {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  margin: 24px 332px 24px 76px;
+  margin: 0 332px 0 76px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .page-nav .link {
@@ -127,7 +129,7 @@ h2 {
 .page-address {
   display: flex;
   gap: 40px;
-  margin: 24px 0;
+  padding: 24px 0;
 }
 
 .page-address .link {
@@ -141,7 +143,7 @@ h2 {
 
 /*-------section-1---------*/
 
-.container-section-one {
+.section-one {
   background-color: #2E2F42;
   height: 600px;
 }
@@ -162,7 +164,7 @@ h2 {
   margin: 188px auto 0;
 }
 
-.container-section-one .button {
+.section-one .button {
   cursor: pointer;
   background-color: #4D5AE5;
   font-size: 16px;
@@ -174,12 +176,13 @@ h2 {
   width: 169px;
   height: 56px;
   margin: 0 auto;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
 }
 
 
 /*-------section-2---------*/
 
-.container-section-two {
+.section-two {
   height: 344px;
   padding: 120px 156px;
 }
@@ -196,7 +199,6 @@ h2 {
   gap: 24px;
   width: 1158px;
   height: 104px;
-  padding: 0 15px;
 }
 
 .benefits-list {
@@ -222,7 +224,7 @@ h2 {
 
 /*-------section-3---------*/
 
-.container-team {
+.section-team {
   background-color: #F4F4FD;
   height: 732px;
   padding-top: 120px;
@@ -230,7 +232,7 @@ h2 {
 
 .container-our-team {
   width: 1158px;
-  height: 732px;
+  height: 612px;
   padding: 0 15px;
   margin: auto;
 }
@@ -238,19 +240,36 @@ h2 {
 .our-team {
 }
 
+.container-team-list {
+  margin: 72px 0 120px;
+}
+
 .team-list {
   display: flex;
   text-align: center;
   gap: 24px;
-  width: 264px;
-  height: 380px;
 }
 
 .team-list .team {
   background-color: #FFFFFF;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgb(46 47 66 / 8%), 0 1px 1px 0 rgb(46 47 66 / 16%), 0 1px 6px 0 rgb(46 47 66 / 8%);
   }
 
-.team .name {
+.team-foto {
+  display: block;
+}
+
+.container-name-speciality {
+  margin: 32px 16px;
+  width: 232px;
+  height: 56px;
+}
+
+.container-name-speciality .name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -258,7 +277,7 @@ h2 {
     color: #2E2F42;
   }
 
-  .team .speciality {
+  .container-name-speciality .speciality {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -268,28 +287,55 @@ h2 {
 
 /*-------section-4---------*/
 
-.container-portfolio {
-  width: 1158px;
-  height: 1000px;
+.section-portfolio {
+  height: 1240px;
+  padding-top: 120px;
 }
 
 .container-our-portfolio {
+  width: 1158px;
+  height: 1120px;
+  padding: 0 15px;
+  margin: auto;
 }
 
 .our-portfolio {
 }
 
 .portfolio-list {
+  margin: 72px 0 120px;
 }
 
 .container-portfolio-one {
   display: flex;
+  gap: 24px;
+  margin-bottom: 48px;
 }
 
 .portfolio {
+  width: 360px;
+  height: 420px;
 }
 
-.portfolio .title {
+.portfolio-foto {
+  display: block;
+}
+
+.container-title-text {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container-title-text .title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -297,7 +343,7 @@ h2 {
   color: #2E2F42;
 }
 
-.portfolio .text {
+.container-title-text .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -306,6 +352,7 @@ h2 {
 
 .container-portfolio-two {
   display: flex;
+  gap: 24px;
 }
 
 
@@ -314,9 +361,19 @@ h2 {
 .container-footer {
   background-color: #2E2F42;
   height: 312px;
+  padding-top: 100px;
 }
 
 .container-logo-text {
+  width: 1158px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.container-logo {
+  width: 115px;
+  height: 24px;
+  margin-bottom: 16px;
 }
 
 .logo-link {
@@ -331,6 +388,8 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+  width: 264px;
+  height: 72px;
 }
 
 .link:hover,
