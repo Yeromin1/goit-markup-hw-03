@@ -109,7 +109,7 @@ h2 {
 }
 
 .page-nav .nav-link {
-  padding: 24px 0;
+
 }
 
 .nav-link .link {
@@ -119,7 +119,7 @@ h2 {
   letter-spacing: 0.02em;
   color: #2E2F42;
   text-decoration: none;
-
+  padding: 24px 0;
 }
 
 .contacts {
