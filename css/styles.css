@@ -57,6 +57,8 @@ h2 {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -72,7 +74,7 @@ h2 {
   display: flex;
   width: 1158px;
   padding: 0 15px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .logo-page-nav {
@@ -81,7 +83,7 @@ h2 {
 }
 
 .logo {
-  width: 115px;
+
 }
 
 .logo-link {
@@ -98,13 +100,16 @@ h2 {
 
 .logo-accent {
   color: #2e2f42;
-  margin-right: 76px
 }
 
 .page-nav {
   display: flex;
   gap: 40px;
-  margin: 0 332px 0 76px;
+  margin-right: 332px;
+}
+
+.nav-link {
+  padding: 24px 0;
 }
 
 .nav-link .link {
@@ -114,7 +119,7 @@ h2 {
   letter-spacing: 0.02em;
   color: #2E2F42;
   text-decoration: none;
-  padding: 24px 0;
+
 }
 
 .contacts {
@@ -293,7 +298,6 @@ h2 {
   display: flex;
   column-gap: 24px;
   row-gap: 48px;
-  width: 1158px;
   flex-wrap: wrap;
 }
 
