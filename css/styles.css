@@ -66,7 +66,6 @@ h2 {
 /*-----------header------------*/
 
 .header {
-  height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -105,7 +104,6 @@ h2 {
 .page-nav {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .page-nav .nav-link {
@@ -124,6 +122,7 @@ h2 {
 
 .contacts {
   font-style: normal;
+  margin-left: 332px;
 }
 
 .page-address {
@@ -145,24 +144,20 @@ h2 {
 
 .section-one {
   background-color: #2E2F42;
-  height: 600px;
   padding: 188px 0;
 }
 
 .section-one .container {
-  display: flex;
-  gap: 48px;
-  flex-direction: column;
   width: 1158px;
-  height: 600px;
   padding: 0 15px;
   margin: auto;
+  text-align: center;
 }
 
 .title-one {
   max-width: 496px;
-  height: 120px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .section-one .button {
@@ -176,7 +171,6 @@ h2 {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
-  margin: 0 auto;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
   border: none;
 }
@@ -185,7 +179,6 @@ h2 {
 /*-------section-2---------*/
 
 .section-two {
-  height: 344px;
   padding: 120px 0;
 }
 
@@ -246,7 +239,6 @@ h2 {
 .team-list .team {
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgb(46 47 66 / 8%), 0 1px 1px 0 rgb(46 47 66 / 16%), 0 1px 6px 0 rgb(46 47 66 / 8%);
   }
@@ -313,8 +305,6 @@ h2 {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
-  display: flex;
-  flex-direction: column;
 }
 
 .container-title-text .title {
