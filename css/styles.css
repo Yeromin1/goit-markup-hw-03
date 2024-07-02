@@ -151,7 +151,6 @@ h2 {
   width: 1158px;
   padding: 0 15px;
   margin: auto;
-  text-align: center;
 }
 
 .title-one {
@@ -173,6 +172,8 @@ h2 {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
   border: none;
+  display: block;
+  margin: auto;
 }
 
 
