@@ -62,6 +62,11 @@ h2 {
   overflow: hidden;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /*-----------header------------*/
 
@@ -71,9 +76,6 @@ h2 {
 
 .header .container {
   display: flex;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .logo-page-nav {
@@ -148,9 +150,7 @@ h2 {
 }
 
 .section-one .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: auto;
+
 }
 
 .title-one {
@@ -173,7 +173,7 @@ h2 {
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
   border: none;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 
@@ -184,9 +184,7 @@ h2 {
 }
 
 .section-two .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: auto;
+
 }
 
 .guality-list {
@@ -223,9 +221,7 @@ h2 {
 }
 
 .section-team .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: auto;
+
 }
 
 .our-team {
@@ -278,9 +274,7 @@ h2 {
 }
 
 .section-portfolio .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: auto;
+
 }
 
 .our-portfolio {
@@ -333,9 +327,7 @@ h2 {
 }
 
 .container-footer .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: auto;
+
 }
 
 .container-logo-link {
@@ -352,7 +344,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
-  width: 264px;
+  max-width: 264px;
 }
 
 .link:hover,
